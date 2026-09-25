@@ -1,0 +1,4 @@
+# Only lightweight libraries: the AI model runs remotely, so no torch/diffusers needed.
+streamlit>=1.50,<2
+huggingface_hub>=0.30,<3
+Pillow>=10.0
